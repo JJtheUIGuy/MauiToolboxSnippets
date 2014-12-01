@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+		<!-- Facebook media meta data un-comment to use -->
+		<meta property="fb:page_id" content="#"> <!-- (this is your site/company's facebook id) -->
+		<meta property="og:image" content="#"> <!-- (path to your image) -->
+		<meta property="og:url" content="#"> <!-- (URL of the page you are sharing) -->
+		<meta property="og:site_name" content="#"> <!-- (example: My Webpage) -->
+		<meta property="og:title" content="#"> <!-- (Example: title of the article, video or subject) -->
+		<meta property="og:type" content="#"> <!-- (Example: Insert what type of content this is) -->
+		<meta property="og:description" content="#"> <!-- (Example: Compelling description to be displayed on FB) -->
+
+		<!-- Twitter media meta data un-comment to use -->
+		<meta name="twitter:card" content="#"> <!-- [summary, image, video] -->
+		<meta name="twitter:url" content="#"> <!-- [URL of article, video, image] -->
+		<meta name="twitter:title" content="#"> <!-- (Example: title of the article, video or subject) -->
+		<meta name="twitter:description" content="#"> <!-- (Example: Compelling description to be displayed on Twitter) -->
+		<meta name="twitter:image" content="#"> <!-- (path to your image to be displayed on Twitter) -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>socialseo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

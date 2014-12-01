@@ -1,0 +1,56 @@
+<snippet>
+	<content><![CDATA[
+/* Maui Parallax
+================================================== */
+.parallax-wrapper {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.pl-group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+/**************************************
+Create Custome Paralaxing Layers
+***************************************
+Elements with negative Z values will scroll slower than those
+with a positive value. The further the value is from 0 the more
+pronounced the parallax effect (i.e. translateZ(-10px) will
+scroll slower than translateZ(-1px)).
+Layers should be placed from the back -> forward
+***************************************/
+.pl-1 {
+  transform: translateZ(0);
+}
+.pl-2 {
+  transform: translateZ(-1px) scale(2);
+}
+
+/**************************************
+height: 100vh is set to fill the viewport
+***************************************/
+.parallax{
+    padding: 100vh 0;
+}
+
+/***************************************
+Parallax Style Sheet created as part of - The Maui Toolbox
+For more information visit: www.mauitoolbox.com
+***************************************/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mauiparallax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

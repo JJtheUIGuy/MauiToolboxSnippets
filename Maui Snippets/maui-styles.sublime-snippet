@@ -1,0 +1,99 @@
+<snippet>
+	<content><![CDATA[
+/***************************************
+[ Master Stylesheet ]
+Project:	
+Version:
+Last edit date:
+Last edit by:
+***************************************/
+html, body {width: 100%;height: 100%;}
+
+/***************************************
+[ Color Notes ]
+# Primary Color: #
+# Secondary Color: #
+# Third Color: #
+# Dark grey: #
+# Mid grey: #
+***************************************/
+
+/* Color Setters
+================================================== */
+.color-1 {
+	color: #;
+}
+.color-bg-1 {
+	background-color: #;
+}
+.color-2 {
+	color: #;
+}
+.color-bg-2 {
+	background-color: #;
+}
+
+/* Maui Custome Styles
+================================================== */
+.no-pad {
+	padding: 0;
+}
+.row.no-gut {
+	margin-right:0;
+	margin-left:0;
+}
+	.row.no-gut > [class*='col-'] {
+		padding-right:0;
+		padding-left:0;
+	}
+
+/***************************************
+[ Typography Notes ]
+Body copy:	Font:	Size: 	
+H1 Header:	Font:	Size:
+Notes:	decreasing heading by ()
+with every subsequent heading level
+***************************************/
+
+/* Typography
+================================================== */
+
+/* Header
+================================================== */
+
+/* Navigation
+================================================== */
+
+/* Banners
+================================================== */
+
+/* Carousel
+================================================== */
+
+/* Content
+================================================== */
+
+/* Footer
+================================================== */
+
+/* Modal
+================================================== */
+
+/* Form
+================================================== */
+
+/* Overrides
+================================================== */
+
+
+/***************************************
+Default Style Sheet created as part of - The Maui Toolbox
+For more information visit: www.mauitoolbox.com
+***************************************/
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mauistyles</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

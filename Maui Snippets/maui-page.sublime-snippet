@@ -1,0 +1,67 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Maui Page Defaut template
+		================================================== -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Description" content="#"> <!-- (Example: Compelling description to be displayed on Search Engine) -->
+		<meta name="author" content="#"> <!-- (example: Developers Name) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="#"> <!-- (example: SEO Keywords) -->
+
+		<title>[SEO APPROVED PAGE TITLE]</title>
+
+		<!-- Bootstrap/Font-Awesome Local ** Download to /css/ **
+		======================================================  -->
+		<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+
+		<!-- Bootstrap/Font-Awesome on CDN ** NOT IE8 Compatible **
+		======================================================  
+		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+
+		<!-- Default Maui Style Sheets
+		========================================= -->
+		<link rel="stylesheet" type="text/css" href="/css/mauistyles.css">
+		<link rel="stylesheet" type="text/css" href="/css/breakpoints.css">
+		<link rel="stylesheet" type="text/css" href="/css/blimp.css">
+		<!-- <link rel="stylesheet" type="text/css" href="/css/parallax.css"> -->
+		
+		<!-- CUSTOM STYLES (Don't get cocky kid!)
+		========================================= -->
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+		=================================================================================== -->
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	
+		<!-- START SCRIPT IMPORTS -->
+		<!-- Before adding localy hosted scripts check http://cdnjs.com/ -->
+
+		<!-- TO PUBLISH TURN THESE ON
+		================================== -->
+		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+		<!-- (UNCOMMON - UNCOMMENT TO USE)
+		================================== -->
+		<!--<script src="scripts/jquery.sticky.js"></script>-->
+		<!--<script src="scripts/mustache.js"></script>-->
+		<!--<script src="scripts/scrollto.js"></script>-->
+		<!--<script src="scripts/swipe.js"></script>-->
+		<!-- END SCRIPT IMPORTS -->
+	</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mauipage</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
