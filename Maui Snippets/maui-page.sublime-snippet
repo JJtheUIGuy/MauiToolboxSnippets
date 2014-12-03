@@ -15,21 +15,20 @@
 		<title>[SEO APPROVED PAGE TITLE]</title>
 
 		<!-- Bootstrap/Font-Awesome Local ** Download to /css/ **
-		======================================================  -->
-		<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+		====================================================== 
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
 
 		<!-- Bootstrap/Font-Awesome on CDN ** NOT IE8 Compatible **
-		======================================================  
-		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+		======================================================  -->
+		<link rel="stylesheet" type="text/css" href="https:https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https:https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
 		<!-- Default Maui Style Sheets
 		========================================= -->
-		<link rel="stylesheet" type="text/css" href="/css/mauistyles.css">
-		<link rel="stylesheet" type="text/css" href="/css/breakpoints.css">
-		<link rel="stylesheet" type="text/css" href="/css/blimp.css">
-		<!-- <link rel="stylesheet" type="text/css" href="/css/parallax.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/mauistyles.css">
+		<link rel="stylesheet" type="text/css" href="css/breakpoints.css">
+		<link rel="stylesheet" type="text/css" href="css/blimp.css">
 		
 		<!-- CUSTOM STYLES (Don't get cocky kid!)
 		========================================= -->
@@ -46,17 +45,14 @@
 		<!-- START SCRIPT IMPORTS -->
 		<!-- Before adding localy hosted scripts check http://cdnjs.com/ -->
 
-		<!-- TO PUBLISH TURN THESE ON
+		<!-- JQuery and Bootstrap JS
 		================================== -->
-		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-		<!-- (UNCOMMON - UNCOMMENT TO USE)
+		<!-- Custom Scripts
 		================================== -->
-		<!--<script src="scripts/jquery.sticky.js"></script>-->
-		<!--<script src="scripts/mustache.js"></script>-->
-		<!--<script src="scripts/scrollto.js"></script>-->
-		<!--<script src="scripts/swipe.js"></script>-->
+		
 		<!-- END SCRIPT IMPORTS -->
 	</body>
 </html>

@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+/* Masonry
+================================================== */
+*,
+*:before,
+*:after {
+  box-sizing: border-box !important;
+}
+
+/**************************************
+Apply .mason + .container to structure tags
+you wish to flow masonry columns inside of
+**************************************/
+
+.mason>.row {
+ -moz-column-width: 18em;
+ -webkit-column-width: 18em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap:1em;  
+}
+.brick {
+ display: inline-block;
+ padding:  .25rem;
+ width:  100%; 
+}
+.well {
+ position:relative;
+ display: block;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>masonry</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

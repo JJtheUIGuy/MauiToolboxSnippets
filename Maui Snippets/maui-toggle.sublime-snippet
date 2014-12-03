@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<!-- Make sure you give your button the ID of #switch -->
+<script>$("#switch").click(function() {
+$("#toggle").toggle();
+});</script>
+<!-- Give the content you want to toggle  the ID of #toggle -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>toggle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
